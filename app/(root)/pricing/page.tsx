@@ -2,6 +2,8 @@ import SectionContainer from "@/components/ui/section-container";
 import PricingPricing from "@/components/layout/pricing/pricing";
 import Payment from "@/components/layout/pricing/payment";
 import FAQ from "@/components/layout/pricing/faq";
+import SectionHeader from "@/components/layout/section-header";
+import { Button } from "@/components/ui/button";
 
 const Pricing = () => {
   
@@ -27,6 +29,30 @@ const Pricing = () => {
         blueBackground={true}
       >
         <FAQ />
+      </SectionContainer>
+      <SectionContainer>
+        <div className="flex flex-col gap-5 items-center justify-center">
+          <SectionHeader
+            title="Ready to build your next product?"
+            sub="Join thousands of developers and designers who trust DesignMind to accelerate their product development process."
+          />
+
+          <div className="flex gap-5 mx-auto mt-5">
+            <Button
+              size={"lg"}
+              className="h-12 text-lg"
+            >
+              Start Free Trial
+            </Button>
+            <Button
+              variant={"outline"}
+              size={"lg"}
+              className="h-12 text-lg"
+            >
+              View Demo
+            </Button>
+          </div>
+        </div>
       </SectionContainer>
     </div>
   )
