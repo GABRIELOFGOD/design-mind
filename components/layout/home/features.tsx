@@ -32,7 +32,7 @@ const Features = () => {
   ];
   
   return (
-    <div className="mx-auto w-[90%] md:w-[75%] flex flex-col gap-10 justify-center items-center py-10 md:py-20">
+    <div id="features" className="mx-auto w-[90%] md:w-[75%] flex flex-col gap-10 justify-center items-center py-10 md:py-20">
       <SectionHeader
         title="From Concept to Code, Instantly"
         sub="DesignMind streamlines your entire workflow with powerful AI-driven features."

@@ -7,12 +7,12 @@ const Header = () => {
     {
       id: 1,
       label: "Features",
-      path: "/features"
+      path: "/#features"
     },
     {
       id: 2,
       label: "Testimonials",
-      path: "/testimonials"
+      path: "/#testimonials"
     },
     {
       id: 3,
