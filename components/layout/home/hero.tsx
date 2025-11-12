@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="w-full h-full relative bg-white p-4 rounded-lg overflow-hidden border border-border/50 animate-bounce shadow duration-700">
+          <div className="w-full h-[250px] md:h-full relative bg-white p-4 rounded-lg overflow-hidden border border-border/50 md:animate-bounce shadow duration-700">
             <Image
               src={"/images/hero.png"}
               alt="hero image"
